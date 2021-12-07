@@ -1,0 +1,10 @@
+{
+  "name": "@wat/nodejs",
+  "homepage": "https://github.com/sisense/auth-toolkit/wat/nodejs/readme.md",
+  "dependencies": {
+    "node-jose": "^2.0.0"
+  },
+  "scripts": {
+    "wat": "node wat_sample.js"
+  }
+}
