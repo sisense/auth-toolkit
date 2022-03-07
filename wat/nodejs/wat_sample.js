@@ -21,6 +21,7 @@ async function getToken() {
         zip: true,
         fields: {
             alg: 'RSA-OAEP-256',
+            typ: 'JWT'
         },
     }, key)
     .update(JSON.stringify(conf.token_payload))
